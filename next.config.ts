@@ -14,6 +14,10 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  /* /train — старое имя страницы тренажёра, ведём на статическую копию. */
+  async redirects() {
+    return [{ source: "/train", destination: "/trainer.html", permanent: false }];
+  },
 };
 
 export default nextConfig;

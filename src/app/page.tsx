@@ -32,12 +32,12 @@ export default function Home() {
           получает домашние задания и проверку.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/train"
+          <a
+            href="/trainer.html"
             className="rounded-lg bg-accent px-5 py-2.5 font-semibold text-[#06281f] transition hover:brightness-110"
           >
             Открыть тренажёр
-          </Link>
+          </a>
           <Link
             href="/teacher"
             className="rounded-lg border border-line bg-panel px-5 py-2.5 font-semibold transition hover:border-accent"
